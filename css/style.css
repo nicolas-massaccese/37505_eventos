@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(27, 125, 175);
+}
+
+#carrito {
+    top: 10px;
+    width: 40px;
+    right: -90%;
+    position: relative;
+    display: flex;
+}
+
+#carrito img{
+    width: 100%;
+}
+
+.carritoContador{
+    font-size: 20px;
+    font-family: verdana;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: verdana;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  white;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.cajaProducto {
+    width: 100%;
+    text-align: center;
+
+}
+
+.cajaProducto img{
+    width: 150px;
+}
+
+.click{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.quitar{
+    background-color: rgb(255, 127, 127);
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.agregar{
+    background-color: #409fff;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
